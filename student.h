@@ -10,7 +10,7 @@ class Student
 public:
     Student();
 
-    Student(string lineFromFile); //1
+  
 
     string getName() ;
 
@@ -24,7 +24,7 @@ public:
 
     void loadStudent(string lineFromFile);
 
-    Student operator>(Student op2); //2
+   
 
 
 private:

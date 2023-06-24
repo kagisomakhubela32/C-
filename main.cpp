@@ -8,24 +8,6 @@
 using namespace std;
 
 
-bool isFemale(Student *param) //1
-{
-   string check = param->getStudent_Number(); //1 (note ->)
-
-   char last = check.at(check.length()-1); //1
-   char slast = check.at(check.length()-2); //1
-
-   if(isdigit(last)) //2 if correct true false is returned based on isdigit for both
-   {
-       if(isdigit(slast))
-       {
-       return true;
-       }
-   }
-
-   return false;
-
-}
 
 
 
